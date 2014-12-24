@@ -38,6 +38,7 @@ gem 'neo4j', '~> 4.0.0.rc.4'
 gem 'devise-neo4j', '~> 2.0.0'
 
 gem 'devise', '~> 3.4.1'
+gem 'cancancan', '~> 1.9'
 gem 'obscenity', '~> 1.0.2'
 
 group :development, :test do
