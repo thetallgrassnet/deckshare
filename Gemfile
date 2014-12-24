@@ -31,6 +31,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'neo4j', '~> 4.0.0.rc.4'
+gem 'devise-neo4j', '~> 2.0.0'
+
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.1.0'
