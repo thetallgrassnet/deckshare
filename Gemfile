@@ -30,6 +30,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'slim-rails', github: 'slim-template/slim-rails'
+gem 'foundation-rails', '~> 5.5'
+gem 'foundation_rails_helper', '~> 0.5'
+
 gem 'neo4j', '~> 4.0.0.rc.4'
 gem 'devise-neo4j', '~> 2.0.0'
 
