@@ -161,6 +161,7 @@ GEM
     net-http-persistent (2.9.4)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
+    obscenity (1.0.2)
     orm_adapter (0.5.0)
     os (0.9.6)
     rack (1.6.0)
@@ -278,6 +279,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   neo4j (~> 4.0.0.rc.4)
+  obscenity (~> 1.0.2)
   rails (= 4.2.0)
   rspec-rails (~> 3.1.0)
   sass-rails (~> 5.0)
