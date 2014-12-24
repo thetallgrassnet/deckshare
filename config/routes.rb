@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :user, path: "users" do
+    resources :accounts, path: "", only: [:show]
+  end
+
   devise_for :users, path: "user", class_name: "User::Account"
 
   # The priority is based upon order of creation: first created -> highest priority.
