@@ -1,0 +1,13 @@
+- content_for :title do
+  = t('devise.passwords.new.title')
+
+= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|
+  fieldset
+    legend = t('devise.passwords.new.title')
+
+    .field = f.email_field :email, autofocus: true
+
+    .actions
+      = f.submit t('devise.passwords.new.submit')
+
+    = render "devise/shared/links"

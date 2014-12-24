@@ -1,0 +1,18 @@
+- content_for :title do
+  = t('devise.sessions.new')
+
+= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+  fieldset
+    legend = t('devise.sessions.new')
+
+    .field = f.email_field :email, autofocus: true
+
+    .field = f.password_field :password, autocomplete: "off"
+
+    - if devise_mapping.rememberable?
+      .field = f.check_box :remember_me
+
+    .actions
+      = f.submit t('devise.sessions.new')
+
+    = render "devise/shared/links"
