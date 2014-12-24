@@ -4,3 +4,7 @@ bundler_args: --without development
 
 before_script:
   - bundle exec rake neo4j:setup[test]
+
+addons:
+  code_climate:
+    repo_token: e288558836386c984c5ec03f4509e1ab17e975e295b24416f629323a61ccbcaa
