@@ -51,3 +51,9 @@ Manage and share your TCG collections and decklists.
 ### Testing
 
     $ bin/rspec
+
+### Shutdown
+
+Press `Ctrl+C` to stop the server, then stop the development and test databases:
+
+    $ bundle exec rake neo4j:stop_all
